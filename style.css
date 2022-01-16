@@ -16,7 +16,10 @@
     font-family: 'Poppins', sans-serif;
 
 }
-a{
+.first-paragraph{
+    font-size: 20px;
+}
+.first-link{
     text-decoration: none;
     background-color: #E02C6D;
     color: white;
@@ -33,3 +36,53 @@ a{
     padding-left: 150px;
     padding-right: 150px;
 }
+
+/* popular collection */
+
+h2{
+    text-align: center;
+}
+.filling{
+    color: gold;
+}
+.rating{
+    color: #787885;
+    padding-left: 10px;
+
+}
+.collection-p{
+    color: #787885;
+    font-weight: bold;
+    
+    
+}
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+.collections{
+    width: 329px;
+    height: 476px;
+    left: 914px;
+    top: 1037px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+/* second link  */
+
+.second-link{
+    text-decoration: none;
+    color: rgb(167, 5, 86);
+    padding-left: 1200px;
+    margin-top: 100px;
+}
+
