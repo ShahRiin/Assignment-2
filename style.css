@@ -86,6 +86,7 @@ h2{
     margin-top: 100px;
     font-weight: bold;
     font-size: 20px;
+    
 }
 
 /* last part  */
@@ -127,4 +128,51 @@ footer{
 #footer-last{
     font-size: 14px;
     font-family: 'Vujahday Script', cursive;
+}
+
+
+/* media queries  */
+
+
+/* mobile devices  */
+
+@media only screen and (max-width:688px) {
+  .first-part{
+      display: block;
+      width: 100%;
+      padding-bottom: 30px;
+  }
+  .popular-collection{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .last-part{
+      display: block;
+      width: 100%;
+      padding-bottom: 30px;
+  }
+  
+
+}
+
+/* tablets  */
+
+
+@media only screen and (min-width:689px) and ( max-width:992px) {
+    
+    .first-part{
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .popular-collection{
+      display: grid;
+     grid-template-columns: repeat(2,1fr);
+    }
+    .last-part{
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    
 }
